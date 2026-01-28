@@ -160,8 +160,7 @@
 
   /* Terrace Card */
   .terrace-card {
-    @apply relative overflow-hidden rounded-xl bg-card;
-    @apply group cursor-pointer;
+    @apply relative overflow-hidden rounded-xl bg-card cursor-pointer;
     box-shadow: var(--shadow-card);
   }
 
