@@ -111,7 +111,7 @@ const Location = () => {
             {/* Get Directions Button */}
             <div className="mt-8">
               <a
-                href="https://www.google.com/maps/dir//Liberty+Market,+Gulberg+III,+Lahore,+Punjab,+Pakistan"
+                href="https://maps.app.goo.gl/z7tVxpZkYGUb8yNx9"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-reserve inline-flex items-center gap-2"
