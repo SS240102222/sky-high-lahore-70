@@ -126,6 +126,8 @@ const Menu = () => {
                     src={dish.image}
                     alt={dish.name}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    loading="lazy"
+                    decoding="async"
                   />
                 </div>
                 <div className="p-6">
@@ -168,6 +170,8 @@ const Menu = () => {
                 src={buffetImage}
                 alt="Monal Lahore buffet spread"
                 className="w-full h-64 md:h-full object-cover"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <div className="p-8 md:w-2/3">

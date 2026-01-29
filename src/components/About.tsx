@@ -22,6 +22,8 @@ const About = () => {
                 src={indoorHallImage}
                 alt="Monal Lahore elegant indoor dining hall with live kitchen"
                 className="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             {/* Floating Badge */}
