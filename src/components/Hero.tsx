@@ -66,10 +66,13 @@ const Hero = () => {
             className="flex flex-col sm:flex-row gap-4 mb-16 animate-fade-in"
             style={{ animationDelay: '0.7s', opacity: 0 }}
           >
-            <a href="#reservations" className="btn-hero text-center">
+            <a href="#reservations" className="btn-hero text-center inline-flex items-center justify-center">
               Reserve Your Rooftop Table
             </a>
-            <a href="#menu" className="btn-outline-gold text-center">
+            <a
+              href="#menu"
+              className="btn-outline-gold inline-flex items-center justify-center text-center"
+            >
               View Menu
             </a>
           </div>
