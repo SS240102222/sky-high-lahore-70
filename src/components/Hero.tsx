@@ -13,7 +13,7 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative section-container">
-        <div className="max-w-3xl py-0">
+        <div className="max-w-3xl pt-24 md:pt-32">
           {/* Main Heading */}
           <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-foreground leading-tight text-shadow mb-4 animate-fade-in" style={{
           animationDelay: '0.2s',
@@ -64,7 +64,7 @@ const Hero = () => {
           </div>
 
           {/* Scroll Indicator - moved below buttons */}
-          <div className="animate-float hidden md:block mt-8">
+          <div className="animate-float hidden md:block">
             <a href="#about" className="text-foreground/50 hover:text-primary transition-colors inline-flex items-center gap-2">
               <ChevronDown className="w-6 h-6" />
               <span className="text-sm">Scroll to explore</span>
