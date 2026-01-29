@@ -12,6 +12,8 @@ const Hero = () => {
           src={heroImage}
           alt="Monal Lahore rooftop terrace at sunset with panoramic city views"
           className="w-full h-full object-cover"
+          decoding="async"
+          fetchPriority="high"
         />
         {/* Gradient Overlay */}
         <div className="absolute inset-0 bg-hero-gradient" />

@@ -73,6 +73,8 @@ const Experience = () => {
                 src={liveMusicImage}
                 alt="Live music performance at Monal Lahore"
                 className="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             {/* Floating Badge */}
