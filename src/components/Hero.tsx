@@ -20,16 +20,10 @@ const Hero = () => {
       {/* Content */}
       <div className="relative section-container">
         <div className="max-w-3xl">
-          {/* Live Music Badge */}
-          <div className="badge-live mb-6 animate-fade-in" style={{ animationDelay: '0.2s', opacity: 0 }}>
-            <Music className="w-4 h-4" />
-            <span>Live Music 7 Days a Week</span>
-          </div>
-
           {/* Main Heading */}
           <h1 
             className="font-heading text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-foreground leading-tight text-shadow mb-4 animate-fade-in"
-            style={{ animationDelay: '0.4s', opacity: 0 }}
+            style={{ animationDelay: '0.2s', opacity: 0 }}
           >
             Sky High Dining<br />
             <span className="text-primary">with Panoramic Views</span>
@@ -37,8 +31,8 @@ const Hero = () => {
 
           {/* Subheading */}
           <p 
-            className="text-lg md:text-xl text-foreground/80 mb-8 max-w-xl animate-fade-in"
-            style={{ animationDelay: '0.6s', opacity: 0 }}
+            className="text-lg md:text-xl text-foreground/80 mb-6 max-w-xl animate-fade-in"
+            style={{ animationDelay: '0.4s', opacity: 0 }}
           >
             Experience fine dining above Lahore's skyline since 2015. 10th floor rooftop, 
             six outdoor terraces, and cuisine that matches the view.
@@ -46,17 +40,23 @@ const Hero = () => {
 
           {/* Location */}
           <div 
-            className="flex items-center gap-2 text-foreground/70 mb-8 animate-fade-in"
-            style={{ animationDelay: '0.7s', opacity: 0 }}
+            className="flex items-center gap-2 text-foreground/70 mb-6 animate-fade-in"
+            style={{ animationDelay: '0.5s', opacity: 0 }}
           >
             <MapPin className="w-4 h-4 text-primary" />
             <span className="text-sm">Park & Ride Plaza, Liberty Roundabout, Gulberg</span>
           </div>
 
+          {/* Live Music Badge - moved below location */}
+          <div className="badge-live mb-8 animate-fade-in" style={{ animationDelay: '0.6s', opacity: 0 }}>
+            <Music className="w-4 h-4" />
+            <span>Live Music 7 Days a Week</span>
+          </div>
+
           {/* CTA Buttons */}
           <div 
-            className="flex flex-col sm:flex-row gap-4 animate-fade-in"
-            style={{ animationDelay: '0.8s', opacity: 0 }}
+            className="flex flex-col sm:flex-row gap-4 mb-16 animate-fade-in"
+            style={{ animationDelay: '0.7s', opacity: 0 }}
           >
             <a href="#reservations" className="btn-hero text-center">
               Reserve Your Rooftop Table
@@ -65,13 +65,14 @@ const Hero = () => {
               View Menu
             </a>
           </div>
-        </div>
 
-        {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-float hidden md:block">
-          <a href="#about" className="text-foreground/50 hover:text-primary transition-colors">
-            <ChevronDown className="w-8 h-8" />
-          </a>
+          {/* Scroll Indicator - moved below buttons */}
+          <div className="animate-float hidden md:block">
+            <a href="#about" className="text-foreground/50 hover:text-primary transition-colors inline-flex items-center gap-2">
+              <ChevronDown className="w-6 h-6" />
+              <span className="text-sm">Scroll to explore</span>
+            </a>
+          </div>
         </div>
       </div>
 
