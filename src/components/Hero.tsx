@@ -64,7 +64,7 @@ const Hero = () => {
           </div>
 
           {/* Scroll Indicator - moved below buttons */}
-          <div className="animate-float hidden md:block">
+          <div className="animate-float hidden md:block mt-8">
             <a href="#about" className="text-foreground/50 hover:text-primary transition-colors inline-flex items-center gap-2">
               <ChevronDown className="w-6 h-6" />
               <span className="text-sm">Scroll to explore</span>
