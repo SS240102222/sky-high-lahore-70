@@ -111,7 +111,7 @@ const Location = () => {
             {/* Get Directions Button */}
             <div className="mt-8">
               <a
-                href="https://maps.app.goo.gl/z7tVxpZkYGUb8yNx9"
+                href="https://www.google.com/maps/dir//Monal+Lahore%D8%8C+Plaza+Liberty+Park+and+Ride+Plaza,+Liberty+Chowk,+Round+About,+Gulberg+III,+Lahore,+Pakistan%E2%80%AD/@31.5337108,74.3054874/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-reserve inline-flex items-center gap-2"
